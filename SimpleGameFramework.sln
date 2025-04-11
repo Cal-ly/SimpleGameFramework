@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleGameLibrary", "SimpleGameLibrary\SimpleGameLibrary.csproj", "{49B85AC9-BFA8-49C3-BCCA-8185194D5B05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleGameDemo", "SimpleGameDemo\SimpleGameDemo.csproj", "{5B27BA18-858B-4DD2-99AD-5C1CBEE5CA92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49B85AC9-BFA8-49C3-BCCA-8185194D5B05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49B85AC9-BFA8-49C3-BCCA-8185194D5B05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49B85AC9-BFA8-49C3-BCCA-8185194D5B05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49B85AC9-BFA8-49C3-BCCA-8185194D5B05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B27BA18-858B-4DD2-99AD-5C1CBEE5CA92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B27BA18-858B-4DD2-99AD-5C1CBEE5CA92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B27BA18-858B-4DD2-99AD-5C1CBEE5CA92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B27BA18-858B-4DD2-99AD-5C1CBEE5CA92}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3461558C-84B2-4ABE-AE63-BA02C9513B21}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+{
+    "World": {
+        "Width": 10,
+        "Height": 10
+    },
+    "GameLevel": "Normal",
+    "Logging": {
+        "MinimumLevel": "Debug",
+        "LogFilePath": "game_log.txt"
+    }
+}
