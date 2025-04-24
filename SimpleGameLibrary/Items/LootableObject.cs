@@ -1,6 +1,7 @@
 using SimpleGameLibrary.Interfaces;
+using SimpleGameLibrary.Core;
 
-namespace SimpleGameLibrary.Objects;
+namespace SimpleGameLibrary.Items;
 
 /// <summary>
 /// Represents a basic lootable object in the game.
@@ -10,7 +11,7 @@ public class LootableObject : ILootable, IWorldObject
     /// <summary>
     /// Gets or sets the name of the lootable object.
     /// </summary>
-    public string Name { get; set; }
+    public required string Name { get; set; }
 
     /// <summary>
     /// Gets or sets a value indicating whether the object is removable.
@@ -30,7 +31,7 @@ public class LootableObject : ILootable, IWorldObject
     /// <summary>
     /// Gets or sets the position of the lootable object.
     /// </summary>
-    public Position Position { get; set; }
+    public required Position Position { get; set; }
 
     /// <summary>
     /// Method to be called when the object is looted by a creature.
